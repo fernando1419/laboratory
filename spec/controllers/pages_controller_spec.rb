@@ -1,18 +1,11 @@
 require 'spec_helper'
 
 describe PagesController do
-  # render_views # call the views for testing
+  render_views # call the views for testing, fails if the views don't exits
 
   describe "GET 'home'" do # when visite home page it should be succesfull
     it "returns http success" do
       get 'home'
-      response.should be_success
-    end
-  end
-
-  describe "GET 'about'" do # response of 200 code for the about request
-    it "returns http success" do
-      get 'about'
       response.should be_success
     end
   end
@@ -23,5 +16,12 @@ describe PagesController do
       response.should be_success
     end
   end  
+
+  describe "GET 'about'" do # response of 200 code for the about request
+    it "returns http success" do
+      get 'about'
+      response.should be_success
+    end
+  end
 
 end
