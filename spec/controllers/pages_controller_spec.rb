@@ -3,6 +3,10 @@ require 'spec_helper'
 describe PagesController do
   render_views # call the views for testing, fails if the views don't exits
 
+  before(:each) do # avoids some duplication
+    @base_title = "Medical Stuff"    
+  end
+
   describe "GET 'home'" do # when visite home page it should be succesfull
     it "returns http success" do
       get 'home'
@@ -13,7 +17,8 @@ describe PagesController do
       get :home
       # have_selector(checks the html element (title) with its correpondent content
       # (Medical Stuff..)) inside of it, it also matches a partial content.
-      response.should have_selector('title', :content => 'Medical Stuff - Home')
+      # si no uso assigns(:title) no puedo accecer al valor de @title del controller.
+      response.should have_selector('title', :content => @base_title + " - #{assigns(:title)}")
     end
   end
 
@@ -25,19 +30,27 @@ describe PagesController do
 
     it "should have the right title" do
       get :contact
-      response.should have_selector('title', :content => 'Medical Stuff - Contact')
+      response.should have_selector('title', :content => @base_title + " - #{assigns(:title)}")
     end
-  end  
+  end 
+  
+  describe "GET 'help'" do
+    it "returns http success" do
+      get :help
+      response.should be_success
+    end      
+  end 
 
   describe "GET 'about'" do # response of 200 code for the about request
     it "returns http success" do
-      get 'about'
+      get :about
       response.should be_success
     end
 
     it "should have the right title" do
       get :about
-      response.should have_selector('title', :content => 'Medical Stuff - About')
+      response.should have_selector('title', :content => @base_title + " - #{assigns(:title)}")
     end
-  end
+  end  
+
 end
