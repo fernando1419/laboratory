@@ -1,6 +1,7 @@
 Laboratory::Application.routes.draw do
-  get "users/new"
-
+  ### ---- users rotues
+  resources :users    
+  ### ---- pages routes
   get "pages/home"  
   get "pages/contact"
   get "pages/about"
