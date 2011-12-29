@@ -11,5 +11,5 @@ class User < ActiveRecord::Base
 #  updated_at :datetime
 #
 attr_accessible :name, :email
-  # validates :name, :presence => true  # validates presence of name attribute
+  validates :name, :presence => true  # validates presence of name attribute  
 end
