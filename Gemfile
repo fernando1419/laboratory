@@ -10,6 +10,7 @@ gem 'sqlite3'
 gem 'heroku'
 gem 'execjs'
 gem 'therubyracer'
+gem 'gravatar_image_tag'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -45,4 +46,5 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+  gem 'factory_girl_rails'
 end
