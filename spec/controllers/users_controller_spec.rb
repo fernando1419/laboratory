@@ -38,26 +38,58 @@ render_views
   end
 
   describe "POST 'create'" do
-    describe "failure" do # tests for failed user signup      
+    # post :create -> hits the create action with a http POST request
+    # invalid_attr -> these are invalid form parms 
+    before do
+        @post_params = {:name => "fernandito", 
+                       :email => "jodido@jodido.com",
+                       :password => "durisimo",
+                       :password_confirmation => "durisimo"}
+    end      
+    it "should assigns a @user variable" do 
+      post :create, :user => @post_params
+      assigns(:user).should_not be_nil
+      assigns(:user).should be_kind_of(User)
+    end
+    
+    describe "Failure" do # tests for failed user signup      
       before(:each) do
-        @attr = {:name => "", :email => "", :password => "",
+        @invalid_attr = {:name => "", :email => "", :password => "",
                  :password_confirmation => ""}
-      end
-      it "should have the right title" do
-        post :create, :user => @attr
-        response.should have_selector(:title, :content => 'Sign up')
-      end
-      # tries to create a new user with invalid fields
+      end      
+      # tries to create a new user with invalid fields      
       it "should not create a new user" do
         lambda do 
-          post :create, :user => @attr  # post request with invalid user attrs
+          post :create, :user => @invalid_attr  # post request with invalid user attrs
         end.should_not change(User, :count)
-      end
-      # when fails it renders the new template
+      end    
+      # it "should have the right title" do
+      #   post :create, :user => @invalid_attr
+      #   response.should have_selector(:title, :content => 'Sign up')
+      # end    
+      # when creation fails it renders the already existing new template
       it "should render the 'new' page" do
-        post :create, :user => @attr
+        post :create, :user => @invalid_attr
         response.should render_template(:new)
       end
     end #describe failure
+
+    describe "Success" do
+      before(:each) do
+        @valid_attr = {:name => "valid_user", :email => "valid@email.com",
+         :password => "valid_password",
+         :password_confirmation => "valid_password"}             
+      end
+      it "should create a new user" do
+        lambda do
+          post :create, :user => @valid_attr
+        end.should change(User, :count).by(1)
+      end
+      it "should redirect to the user show page" do
+        post :create, :user => @valid_attr
+        response.should redirect_to(user_path(assigns(:user)))
+      end
+    end #describe 'Success'
+
   end #describe POST 'create'
 end
