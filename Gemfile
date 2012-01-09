@@ -11,6 +11,7 @@ gem 'heroku'
 gem 'execjs'
 gem 'therubyracer'
 gem 'gravatar_image_tag'
+gem 'jquery-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -29,10 +30,12 @@ group :test do
   gem 'rspec'
   gem 'webrat'
   gem 'spork'
+ # gem 'capybara'
   gem 'autotest-rails'  
+  # Pretty printed test output
+  gem 'turn', :require => false
+  gem 'factory_girl_rails'
 end  
-
-gem 'jquery-rails'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -42,9 +45,3 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
-
-group :test do
-  # Pretty printed test output
-  gem 'turn', :require => false
-  gem 'factory_girl_rails'
-end

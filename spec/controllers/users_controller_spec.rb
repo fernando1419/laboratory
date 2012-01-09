@@ -48,11 +48,12 @@ render_views
     end      
     it "should assigns a @user variable" do 
       post :create, :user => @post_params
-      assigns(:user).should_not be_nil
+      # assigns(:user).should_not be_nil
+      assigns(:user).nil?.should == false
       assigns(:user).should be_kind_of(User)
     end
     
-    describe "Failure" do # tests for failed user signup      
+    describe "failure" do # tests for failed user signup      
       before(:each) do
         @invalid_attr = {:name => "", :email => "", :password => "",
                  :password_confirmation => ""}
@@ -74,7 +75,7 @@ render_views
       end
     end #describe failure
 
-    describe "Success" do
+    describe "success" do
       before(:each) do
         @valid_attr = {:name => "valid_user", :email => "valid@email.com",
          :password => "valid_password",
@@ -88,6 +89,10 @@ render_views
       it "should redirect to the user show page" do
         post :create, :user => @valid_attr
         response.should redirect_to(user_path(assigns(:user)))
+      end
+      it "should have a welcome message (flash)" do
+        post :create, :user =>@valid_attr
+        flash[:success].should =~ /welcome to the application/i
       end
     end #describe 'Success'
 
