@@ -284,3 +284,181 @@ REQUESTING PAGE: GET /signup with {} and HTTP headers {}
 REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"fernando", "email"=>"fernando@fernando.com", "password"=>"password", "password_confirmation"=>"password"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
 REQUESTING PAGE: GET /signup with {} and HTTP headers {}
 REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"fernando", "email"=>"fernando@fernando.com", "password"=>"password", "password_confirmation"=>"password"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"fernando", "email"=>"fernando@fernando.com", "password"=>"password", "password_confirmation"=>"password"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"fernando", "email"=>"fernando@fernando.com", "password"=>"password", "password_confirmation"=>"password"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"fernando", "email"=>"fernando@fernando.com", "password"=>"password", "password_confirmation"=>"password"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"fernando", "email"=>"fernando@fernando.com", "password"=>"password", "password_confirmation"=>"password"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"fernando", "email"=>"fernando@fernando.com", "password"=>"password", "password_confirmation"=>"password"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"fernando", "email"=>"fernando@fernando.com", "password"=>"password", "password_confirmation"=>"password"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"fernando", "email"=>"fernando@fernando.com", "password"=>"password", "password_confirmation"=>"password"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"fernando", "email"=>"fernando@fernando.com", "password"=>"password", "password_confirmation"=>"password"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"fernando", "email"=>"fernando@fernando.com", "password"=>"password", "password_confirmation"=>"password"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"fernando", "email"=>"fernando@fernando.com", "password"=>"password", "password_confirmation"=>"password"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"fernando", "email"=>"fernando@fernando.com", "password"=>"password", "password_confirmation"=>"password"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}

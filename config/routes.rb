@@ -1,11 +1,15 @@
 Laboratory::Application.routes.draw do
   ### ---- users routes
-  resources :users    
-  ### ---- signup routes
-  get '/signup' => 'users#new'
+  resources :users   
+  match '/signup', :to => 'users#new'
+  ### ---- session routes
+  resource :sessions, :only => [:new, :create, :destroy] 
+  match '/signin', :to => 'sessions#new' 
+  match '/signout', :to => 'sessions#destroy'  
+
   ### ---- pages routes
   get "pages/home"  
-  get "pages/contact"
+  get "pages/contact"  
   get "pages/about"
   get "pages/help"  
 
@@ -58,7 +62,7 @@ Laboratory::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  root :to => 'pages#home'
 
   # See how all your routes lay out with "rake routes"
 

@@ -54,7 +54,6 @@ class User < ActiveRecord::Base
       secure_hash "#{Time.now.utc}--#{password}"      
     end
 
-
     def encrypt_password
       # new_record? return true if the obj. has not been saved to DB,
       # so the salt is created only once when the user is first created

@@ -29,7 +29,7 @@ describe "Users" do
     #       fill_in "Password", :with => "password"
     #       fill_in "Confirmation", :with => "password"
     #       click_button
-    #       response.should redirect_to("users/show")
+    #       response.should render_template("users/show")
     #       response.should have_selector("div.flash.success", :content => "welcome")
     #     end.should change(User, :count).by(1)
     #   end
