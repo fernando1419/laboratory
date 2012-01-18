@@ -42,8 +42,8 @@ render_views
       end
       it "should sign in the user" do
         post :create, :session => @attr
-        # controller.current_user.should == @user
-        # controller.signed_in?.should be_true
+        controller.current_user.should == @user
+        controller.signed_in?.should be_true
       end      
       it "should redirect to to user's show page" do
         post :create, :session => @attr
@@ -51,6 +51,16 @@ render_views
       end
     end
 
+  end
+
+  describe "DELETE 'destroy'" do
+    it "should sign a user out" do
+      test_sign_in(Factory(:user)) # method defined in spec_helper.rb
+      delete :destroy # http delete request
+      # controller.should_not be_signed_in
+      controller.signed_in?.should == false
+      response.should redirect_to(root_path)
+    end
   end
   
 end

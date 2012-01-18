@@ -94,6 +94,11 @@ render_views
         post :create, :user =>@valid_attr
         flash[:success].should =~ /welcome to the application/i
       end
+      it "should sign the user in" do
+        post :create, :user =>@valid_attr
+        controller.signed_in?.should == true
+      end
+
     end #describe 'Success'
 
   end #describe POST 'create'

@@ -41,6 +41,11 @@ Spork.prefork do
     ActiveSupport::Dependencies.clear
     ActiveRecord::Base.instantiate_observers
     Laboratory::Application.reload_routes! ## Replace Laboratory with your App. name
+
+    def test_sign_in(user)
+      controller.sign_in(user)
+    end
+
   end
 
 end
