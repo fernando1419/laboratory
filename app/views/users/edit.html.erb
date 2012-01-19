@@ -1,12 +1,11 @@
-<h1>Sign up</h1>
-<p>Find me in app/views/users/new.html.erb</p> <br />
-<!-- since @user is a new user, Rails knows to construct a form with the post method, which is the proper verb for creating a new object-->
-<%= form_for @user do |f| -%>
+<h1>Edit user</h1>
+<%= flash[:message] %>
+<%= form_for @user do |f| %>  
   <%= render 'shared/error_messages', :object => f.object %>
   <div class="field">
-    <%= f.label :name %> <br />
+    <%= f.label :name %><br />
     <%= f.text_field :name %>
-  </div>  
+  </div>
   <div class="field">
     <%= f.label :email %><br />
     <%= f.text_field :email %>
@@ -16,13 +15,10 @@
     <%= f.password_field :password %>
   </div>
   <div class="field">
-    <%= f.label :password_confirmation , "Confirmation" %><br /> 
+    <%= f.label :password_confirmation, "Confirmation" %><br />
     <%= f.password_field :password_confirmation %>
   </div>
   <div class="actions">
-    <%= f.submit "Sign up" %>
-  </div>  
-<% end -%>
-
-
-
+    <%= f.submit "Update" %>
+  </div>
+<% end %>
